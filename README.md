@@ -1,2 +1,19 @@
-# Selenium-Automation-Project-SauceDemo
-Automated key functionalities of the SauceDemo web application using Selenium WebDriver and Java. Implemented login, add-to-cart, checkout, and logout scenarios. Handled synchronization issues using waits and validated application behavior using conditional logic.
+# Selenium Automation Project – SauceDemo
+
+## Description
+This project automates the SauceDemo web application using Selenium WebDriver and Java.
+
+## Automated Scenarios
+- Login (valid & invalid)
+- Add product to cart
+- Remove product from cart
+- Checkout process
+- Logout validation
+
+## Tools Used
+- Java
+- Selenium WebDriver
+- ChromeDriver
+
+## Author
+Praveen
