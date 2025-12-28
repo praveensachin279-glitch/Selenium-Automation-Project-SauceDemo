@@ -8,12 +8,11 @@ public class ValidLogin {
 
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver=BaseTest.startApp();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		WebElement username = driver.findElement(By.id("user-name"));
 		username.sendKeys("standard_user");
-		Thread.sleep(5000);
 		WebElement password = driver.findElement(By.id("password"));
 		password.sendKeys("secret_sauce");
-		Thread.sleep(5000);
 		WebElement button = driver.findElement(By.id("login-button"));
 		button.click();
 		
@@ -30,3 +29,4 @@ public class ValidLogin {
 	}
 
 }
+
